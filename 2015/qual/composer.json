@@ -1,0 +1,23 @@
+{
+    "name": "dalen/google-codejam",
+    "type": "library",
+    "description": "Google Code Jam Competition",
+    "keywords": ["php","competition"],
+    "license": "MIT",
+    "authors":
+    [
+        {
+            "name": "Daniele Orler",
+            "email": "daniele.orler@gmail.com",
+            "homepage": "https://github.com/danieleorler"
+        }
+    ],
+    "require":
+    {
+        "php": ">=5.5"
+    },
+    "autoload":
+    {
+        "psr-4": {"Dalen\\GoogleCodeJam\\": "src/"}
+    }
+}
